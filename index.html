@@ -1,108 +1,32 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/BeautifulDirt/beautifuldirt.github.io/master/src/favicon.ico"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="https://raw.githubusercontent.com/BeautifulDirt/beautifuldirt.github.io/master/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap" rel="stylesheet">
-    <title>Алла Снопкова</title>
-    <style>
-        body {
-            margin: 5em;
-            background-color: #100f0f;
-            font-family: 'Source Code Pro', monospace;
-        }
-        h2 {
-            padding-top: 0.5em;
-            padding-bottom: 0.5em;
-        }
-        .rounded-circle {
-            width: 15em;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            box-shadow: 0.5em -0.5em #ffc107;
-        }
-
-        #my_name {
-            text-align: center;
-            font-size: 2em;
-            padding-top: 1em;
-            line-height: 1em;
-        }
-
-        #prof {
-            text-align: center;
-            color: #ffffff;
-            font-size: 1em;
-            line-height: 3em;
-        }
-
-        .about {
-            display: block; 
-            margin: 0 auto;
-        }
-
-        .bg-c {
-            background-color:  #ffc107;
-        }
-
-        #tags {
-            padding-top: 1em;
-        }
-
-        .colortext {
-            color: rgb(224, 66, 66);
-        }
-
-        a {
-            color: aqua;
-            text-decoration: none;
-        }
-    </style>
-  </head>
-  <body>
-    <main>
-        <img class="rounded-circle" alt="avatar" src="https://raw.githubusercontent.com/BeautifulDirt/beautifuldirt.github.io/44be281d94cca9e6229afc77e963dfbe2e588047/profile.jpg" />
-        <div>
-            <div id="my_name" class="text-warning">Алла Снопкова</div>
-            <div id="prof">BackEnd разработчик 👩‍💻</div>
+    <title>Alla Snopkova</title>
+</head>
+<body>
+    <div class="intro">
+        <div class="video">
+            <video class="video__media" src="src/video.mp4" autoplay muted loop></video>
         </div>
-        <div class="mt-4 p-1 text-white rounded about">
-            <h2> 👋 Привет! <span class="colortext">Расскажу немного о себе ...</span></h2>
-            <p>Я программист. Cпециализируюсь на языке программирования Python, в свободное от работы время изучаю Golang. Работаю в телеком-компании, где занимаюсь постоянным поиском оптимальных решений для автоматизации телекоммуникационных процессов, а также разработкой внутренних информационных систем. Делаю все возможное, чтобы мои проекты были максимально эффективными и быстрыми в выполнении поставленных задач.</p>
-            <h2> 🤫 Топ фактов обо мне </h2>
-            <ul>
-                <li>Работаю программистом <span class="colortext"> с августа 2021</span>.</li>
-                <li>Свой путь в изучении программирования начала с языков <span class="colortext">С/С++</span>.</li>
-                <li>Имею высшее образование в области "Информационных систем". <span class="colortext">Магистр</span>.</li>
-                <li>Сейчас слушаю песни <a href="https://youtu.be/TieEBztbgRk"> Cyberpunk 2077 Radio.</a></li>
-                <li>Являюсь <a href="https://vk.com/serial_sled">администратором группы</a> криминального детективного <span class="colortext">сериала "След"</span>.</li>
-                <li>Интроверт. Шизоид</li>
-                <li>Немного не пучается с FrondEnd'ом. Зато <span class="colortext">отлично решаю задачи, где требуются инженерно-математические знания</span>.</li>
-                <li>Создала эту страницу, чтобы посмотреть как работает <span class="colortext">GitHub Actions</span>.</li>
-                <li>Есть собака и 5 котов!</li>
-            </ul>
+            
+        <div class="intro__content">
+            <div class="container">
+               <span>
+                    <div class="text">
+                        <h1 class="intro__title">Hi, my name is <span class="hl1">Alla Snopkova</span> 👋</h1>
+                        <h2 class="intro__title">I'm <span class="hl2">Backend Developer</span></h2>
+                        <h4 class="intro__text">Welcome to my <a href="https://github.com/BeautifulDirt">GitHub</a> 😉</h4>
+                    </div>
+                    <div>
+                        <img src="https://raw.githubusercontent.com/BeautifulDirt/beautifuldirt.github.io/master/src/zepeto.png" alt="">
+                    </div>
+                </span>
+            </div>        
         </div>
-        <div class="about" id="tags">
-            <span class="badge rounded-pill bg-c text-dark">Python</span>
-            <span class="badge rounded-pill bg-c text-dark">Golang</span>
-            <span class="badge rounded-pill bg-c text-dark">Docker</span>
-            <span class="badge rounded-pill bg-c text-dark">Docker-compose</span>
-            <span class="badge rounded-pill bg-c text-dark">CI/CD</span>
-            <span class="badge rounded-pill bg-c text-dark">API</span>
-            <span class="badge rounded-pill bg-c text-dark">Media Bots</span>
-            <span class="badge rounded-pill bg-c text-dark">SQL</span>
-            <span class="badge rounded-pill bg-c text-dark">NoSQL</span>
-            <span class="badge rounded-pill bg-c text-dark">Celery</span>
-            <span class="badge rounded-pill bg-c text-dark">RabbitMQ</span>
-            <span class="badge rounded-pill bg-c text-dark">Автоматизация</span>
-            <span class="badge rounded-pill bg-c text-dark">Алгоритмы</span>
-        </div>
-    </main>
-  </body>
+    </div>
+</body>
 </html>

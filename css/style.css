@@ -8,7 +8,7 @@ body {
     overflow: hidden;
     position: relative;
 
-    background: url("cover.png") center no-repeat;
+    background: url("https://raw.githubusercontent.com/BeautifulDirt/beautifuldirt.github.io/master/src/cover.png") center no-repeat;
     background-size: cover;
 }
 
@@ -44,7 +44,6 @@ body {
     font-size: 45px;
     color: #fff;
     padding-top: 0.1em;
-    /* text-align: center; */
 }
 
 .intro__title span.hl1{
