@@ -85,8 +85,9 @@ body {
 }
 
 img {
-    height: 70em;
+    height: 80em;
     float: right;
+    padding-top: 5em;
 }
 
 .text {
